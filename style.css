@@ -1,0 +1,256 @@
+*{
+    margin: 5px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+div{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.Menubar{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.Menu{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    column-gap: 50px;
+}
+.logo{
+    height: 80px;
+    width: 200px;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+/* .Menubar h3{
+    font-size: larger;
+    margin-left: 50px;
+    font-family: "Dancing Script", cursive;
+    font-style: italic;
+    color: #e2e9ec;
+}
+.Menubar h3 span{
+    color: rgb(29, 225, 183);;
+} */
+.con-item{
+    font-size: large;
+    
+}
+.con-item a{
+    font-size: larger;
+    color: white;
+    
+}
+.con-item:hover{
+    transform: scale(1.2);
+    color: rgb(9, 136, 186);
+}
+.con-item a:hover{
+    transform: scale(1.2);
+    color: rgb(9, 136, 186);
+}
+.About {
+    margin-top: 10%;
+    margin-left: 5%;
+    
+    
+}
+.About h2{
+    color: rgb(174, 12, 55);
+    font-size: 30px;
+}
+.About h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+span{
+    color: rgb(237, 103, 7);;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.image{
+    margin-top: 10%;
+    margin-right: 10%;
+}
+.self{
+    border-radius: 50%;
+    height: 350px;
+    transition: bottom 1s, left 1s;
+}
+.self:hover{
+    left: 45%;
+}
+.details{
+    width: 50%;
+    font-size: 20px;
+}
+.Education {
+    background-color: rgb(12, 11, 9);
+    /* margin-top: 10%;
+    margin-left: 5%; */
+    width: 100%;
+    padding: 100px 20px;
+    padding-top: 50px;
+    
+}
+.title{
+    background-color: rgb(12, 11, 9);
+    font-size: 20px;
+    text-align: center;
+    color: darkcyan;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+
+.degree{
+    background-color: rgb(12, 11, 9);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    min-height: 150px;
+    column-gap: 30px;
+    margin-right: 20px;
+}
+.box {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* background-color: #191919; */
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+}
+
+.box h2{
+    color: rgb(193, 70, 156);
+}
+.cont{
+    width: 100%;
+    height: 150px;
+    /* background: #191919; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+/* .contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+.Skill{
+    
+    padding-top: 50px;
+    padding-bottom: 150px;
+   
+}
+.header{
+    font-size: 20px;
+    text-align: center;
+    color: darkcyan;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    column-gap: 30px;
+    
+}
+.skill-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.skill-img{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 50px;
+}
+.contact{
+    padding-top: 50px;
+}
+.contact .button{
+    margin-top: 30px;
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    transition: .5s;
+}
+.contact .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.social{
+    background-color: rgb(12, 11, 9);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    background: rgb(237, 103, 7);;;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+}
+.contact{
+    background-color: rgb(12, 11, 9);;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact h1{
+    font-size: 40px;
+    text-align: center;
+    color: darkcyan;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+}
+
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+
+}
